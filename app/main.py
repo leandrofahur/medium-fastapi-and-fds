@@ -25,7 +25,7 @@ light_bulb = LightBulbFSM("MyLightBulb")
 @app.get("/")
 def root():
     """Return a welcome message."""
-    return {"message": "Welcome to the Light Bulb FSM API simulation!"}
+    return {"message": "Welcome to the Light Bulb FSM API simulation!\nPlease access the /docs to play with the API."}
 
 
 # Define the API endpoints
